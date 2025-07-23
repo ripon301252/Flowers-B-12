@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* body{
+    font-family: "Noto Serif", serif;
+    font-family: "Inter", sans-serif;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header section */
+.header-container{
+    font-family: "Inter", sans-serif;
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-right{
+    display: flex;
+}
+
+.navbar-right ul{
+    display: flex;
+    gap: 50px;
+}
+
+.navbar-right ul li{
+    list-style: none;
+
+}
+
+.navbar-right ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #8987a1;
+}
+
+.home{
+    color: #252432 !important; 
+    font-weight: bold;
+}
+
+.cart{
+    display: flex;
+    text-align: center;
+}
+
+.cart-icon{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 1px;
+    margin-right: 5px;
+}
+
+
+/* fresh-flowers section */
+.main-container{
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.fresh-flowers-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.color-orange{
+    color: #e85a2a;
+}
+
+.fresh-flowers-section h1{
+    font-family: "Noto Serif", serif;
+    font-size: 60px;
+}
+
+.fresh-flowers-section p{
+    font-family: "Inter", sans-serif;
+    color: #8987a1;
+}
+
+/* our-plants section */
+.our-plant-container{
+    margin-top: 80px;
+}
+
+.our-plant-container h1{
+    font-family: "Noto Serif", serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.our-plant-container p{
+    font-family: "Inter", sans-serif;
+    color: #8987a1;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.our-plant-content{
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 30px;
+}
+
+.card{
+    width: 270px;
+    /* border: 1px solid red; */
+}
+
+.flower-name, .price{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.flower-name{
+    font-weight: 500;
+}
+
+.price{
+    margin: 10px;
+}
+
+.cart-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    font-family: "Inter", sans-serif;
+    padding: 12px 89px;
+    background-color: #e85a2a;
+    border: none;
+    color: #ffffff;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+/* Flower & Plants Lover */
+.plants-lover-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    /* border: 1px solid red; */
+    margin-top: 200px;
+    position: relative;
+}
+
+.plants-lover-container img{
+    width: 540px;
+}
+
+.plants-lover-container h1{
+    font-size: 70px;
+}
+
+.plants-lover-container li{
+    font-family: "Inter", sans-serif;
+    color: #8987a1;
+    margin-top: 40px;
+    font-size:20px;
+}
+
+.img-2{
+    width: 250px;
+    position: absolute;
+    top: -150px;
+    left: 350px;
+}
+
+.img-2 img{
+    width: 300px;
+}
