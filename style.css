@@ -277,7 +277,7 @@
 /* footer section */
 .footer-bg{
     position: relative;
-    background: linear-gradient( rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(/img/news-letter-bg.png);
+    background: linear-gradient( rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(./img/news-letter-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 1351px;
