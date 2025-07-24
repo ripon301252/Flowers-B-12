@@ -116,6 +116,7 @@
 
 .card{
     width: 270px;
+    margin-bottom: 30px;
 }
 
 .flower-name, .price{
