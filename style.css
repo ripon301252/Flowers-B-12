@@ -72,7 +72,7 @@
 .fresh-flowers-section{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
 }
 
 .color-orange{
@@ -175,12 +175,24 @@
 .img-2{
     width: 250px;
     position: absolute;
-    top: -150px;
-    left: 350px;
+    top: -134px;
+    left: 340px;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
 
 .img-2 img{
+    position: relative;
+    animation: spin 3s  infinite linear ;
     width: 300px;
+    
 }
 
 /* Latest  Deals section */
