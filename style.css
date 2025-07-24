@@ -531,6 +531,10 @@
     }
 
     /* footer section */
+    .footer-bg{
+        width: 1180px;
+    }
+
     .footer-bg h1{
         /* font-size: ; */
         top: 245px;
