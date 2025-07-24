@@ -339,6 +339,7 @@
 
 .first-ul li{
     margin-bottom: 22px;
+    cursor: pointer;
 }
 
 .social-icon{
