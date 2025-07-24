@@ -297,7 +297,7 @@
 .footer-bg h1{
     position: absolute;
     top: 240px;
-    left: 358px;
+    left: 364px;
     color: #ffffff;
     font-size: 50px;
 }
@@ -305,7 +305,7 @@
 .email{
     position: absolute;
     top: 338px;
-    left: 243px;
+    left: 248px;
     border: none;
     padding: 15px 400px 15px 20px;
     outline: none;
@@ -315,7 +315,7 @@
 .submit{
     position: absolute;
     top: 338px;
-    left: 872px;
+    left: 886px;
     border: none;
     padding: 15px 40px 15px 40px;
     background-color: #e85a2a;
