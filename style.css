@@ -223,7 +223,7 @@
 
 .bg-2{
     position: relative;
-    background: linear-gradient( rgba(0,0,0,0.4),rgba(0,0,0,0.5)), url(/img/deal-ana.png);
+    background: linear-gradient( rgba(0,0,0,0.4),rgba(0,0,0,0.5)), url(./img/deal-ana.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 367px;
@@ -234,7 +234,7 @@
 
 .bg-3{
     position: relative;
-    background: linear-gradient( rgba(0,0,0,0.4),rgba(0,0,0,0.5)), url(/img/deal-zabo.png);
+    background: linear-gradient( rgba(0,0,0,0.4),rgba(0,0,0,0.5)), url(./img/deal-zabo.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 753px;
